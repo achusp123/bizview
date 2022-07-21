@@ -7,7 +7,7 @@
 
 **_Prerequistes_**
 * Should have NodeJs installed on the system.
-* Should have Git istalled on teh system.
+* Should have Git istalled on the system.
 
 **_How to run the tests_**
 1. Navigate to a path where the project needs to be cloned.
