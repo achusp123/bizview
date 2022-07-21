@@ -35,8 +35,7 @@ export class HomePage {
       await this.page.waitForLoadState('networkidle');
       await expect (this.page).toHaveURL(url);
       console.log('Link Navigation verified' );
-      await this.page.goBack();
-      await this.page.waitForLoadState('networkidle');
+      await this.page.goBack({waitUntil: 'networkidle',timeout: 60000});
       
    }
 
